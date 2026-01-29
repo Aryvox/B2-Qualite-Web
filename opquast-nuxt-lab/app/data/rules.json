@@ -88,5 +88,162 @@
       "Vérifier, pour chaque page concernée, que la liste des étapes y est indiquée, en règle générale sous forme d'un chemin d'étapes en tête de page ou de formulaire."
     ],
     "screenshotsSources": []
+  },
+  {
+    "id": 175,
+    "title": "La désinscription depuis une newsletter ne demande pas de confirmation par courriel",
+    "authors": ["Opquast"],
+    "path": "/rules/175",
+    "description": "La désinscription doit être effective immédiatement après l'action de l'utilisateur, sans étapes supplémentaires inutiles comme une confirmation par email.",
+    "tags": ["E-mailing", "UX", "Confidentialité"],
+    "objectives": [
+      "Éviter d'imposer des étapes inutiles à l'utilisateur.",
+      "Renforcer la confiance de l'utilisateur.",
+      "Réduire la consommation d'énergie liée aux interactions."
+    ],
+    "implementationIntro": "Gérer la désinscription directement depuis le lien dans la newsletter, avec uniquement une confirmation en ligne.",
+    "implementation": [
+      "Le lien de désinscription mène à une page confirmant la prise en compte de la demande.",
+      "Aucun email de confirmation de désinscription n'est envoyé."
+    ],
+    "control": [
+      "Cliquer sur le lien de désinscription d'une newsletter.",
+      "Vérifier que la désinscription est confirmée sur la page de destination.",
+      "Vérifier qu'aucun email de confirmation n'est demandé ou envoyé."
+    ],
+    "screenshotsSources": []
+  },
+  {
+    "id": 176,
+    "title": "La désinscription aux newsletters est possible depuis le site",
+    "authors": ["Opquast"],
+    "path": "/rules/176",
+    "description": "L'utilisateur doit pouvoir gérer ses abonnements directement depuis son compte ou une page dédiée sur le site, sans avoir à retrouver un ancien email.",
+    "tags": ["E-mailing", "UX", "Compte utilisateur"],
+    "objectives": [
+      "Faciliter la gestion des abonnements.",
+      "Permettre la désinscription même sans accès au dernier email reçu."
+    ],
+    "implementationIntro": "Proposer une interface de gestion des abonnements dans l'espace client ou via un formulaire dédié.",
+    "implementation": [
+      "Ajouter une section 'Mes préférences de communication' dans le compte utilisateur.",
+      "Permettre de cocher/décocher les types de newsletters souhaitées."
+    ],
+    "control": [
+      "Se connecter au site avec un compte abonné.",
+      "Trouver la rubrique de gestion des newsletters.",
+      "Vérifier qu'il est possible de se désinscrire depuis cette interface."
+    ],
+    "screenshotsSources": []
+  },
+  {
+    "id": 177,
+    "title": "La dernière newsletter envoyée est disponible en ligne",
+    "authors": ["Opquast"],
+    "path": "/rules/177",
+    "description": "Permettre la consultation de la newsletter dans un navigateur assure son accessibilité si le client mail l'affiche mal, et permet de la partager plus facilement.",
+    "tags": ["E-mailing", "Accessibilité", "Contenus"],
+    "objectives": [
+      "Pallier les problèmes d'affichage des clients mail.",
+      "Permettre le partage de la newsletter via une URL."
+    ],
+    "implementationIntro": "Inclure un lien 'Consulter en ligne' dans l'email et héberger la version HTML sur le site.",
+    "implementation": [
+      "Générer une page web statique correspondant au contenu de chaque newsletter.",
+      "Rendre cette page accessible via une URL publique."
+    ],
+    "control": [
+      "Ouvrir une newsletter.",
+      "Cliquer sur le lien 'Voir la version en ligne'.",
+      "Vérifier que la page s'affiche correctement dans le navigateur."
+    ],
+    "screenshotsSources": []
+  },
+  {
+    "id": 178,
+    "title": "Les archives de newsletters sont disponibles en ligne",
+    "authors": ["Opquast"],
+    "path": "/rules/178",
+    "description": "Donner accès aux anciennes newsletters renforce la transparence et permet aux utilisateurs de retrouver des informations passées.",
+    "tags": ["E-mailing", "Contenus", "Transparence"],
+    "objectives": [
+      "Valoriser les contenus éditoriaux passés.",
+      "Permettre aux utilisateurs de retrouver une information ancienne."
+    ],
+    "implementationIntro": "Créer une rubrique 'Archives' ou 'Nos newsletters' listant les envois précédents.",
+    "implementation": [
+      "Lister les newsletters précédentes avec leur date et leur sujet.",
+      "Rendre chaque archive consultable en un clic."
+    ],
+    "control": [
+      "Chercher la section archives des newsletters sur le site.",
+      "Vérifier que les anciens numéros sont listés et consultables."
+    ],
+    "screenshotsSources": []
+  },
+  {
+    "id": 179,
+    "title": "La fréquence d'envoi des newsletters est consultable avant l'abonnement",
+    "authors": ["Opquast"],
+    "path": "/rules/179",
+    "description": "Indiquer la périodicité (quotidienne, hebdomadaire, mensuelle) rassure l'utilisateur et évite la sensation de spam.",
+    "tags": ["E-mailing", "UX", "Transparence"],
+    "objectives": [
+      "Informer l'utilisateur sur la pression publicitaire ou éditoriale.",
+      "Instaurer une relation de confiance."
+    ],
+    "implementationIntro": "Mentionner la fréquence sur le formulaire d'inscription (ex: 'Recevez notre veille hebdomadaire').",
+    "implementation": [
+      "Ajouter une mention 'Hebdomadaire', 'Mensuel' ou 'Chaque matin' à côté du champ d'inscription."
+    ],
+    "control": [
+      "Accéder au formulaire d'inscription à la newsletter.",
+      "Vérifier que la fréquence d'envoi est explicitement indiquée."
+    ],
+    "screenshotsSources": []
+  },
+  {
+    "id": 180,
+    "title": "La charte graphique est cohérente sur toutes les pages",
+    "authors": ["Opquast"],
+    "path": "/rules/180",
+    "description": "Une identité visuelle stable aide l'utilisateur à se repérer et renforce l'image de marque du site.",
+    "tags": ["Design", "UX", "Crédibilité"],
+    "objectives": [
+      "Faciliter le repérage de l'utilisateur.",
+      "Renforcer l'identité et la crédibilité du site."
+    ],
+    "implementationIntro": "Utiliser des gabarits (templates) et des feuilles de styles communes pour l'ensemble du site.",
+    "implementation": [
+      "Définir des variables CSS globales pour les couleurs, polices et espacements.",
+      "Utiliser les mêmes composants d'en-tête et de pied de page sur tout le site."
+    ],
+    "control": [
+      "Naviguer sur plusieurs pages du site (accueil, contenu, contact).",
+      "Vérifier que le logo, les menus, les polices et les couleurs principales restent identiques."
+    ],
+    "screenshotsSources": []
+  },
+  {
+    "id": 181,
+    "title": "L'information n'est pas véhiculée uniquement par la couleur",
+    "authors": ["Opquast"],
+    "path": "/rules/181",
+    "description": "Penser aux daltoniens et aux contextes où la couleur est absente ou altérée. L'information doit rester compréhensible sans couleur.",
+    "tags": ["Accessibilité", "Design", "Inclusion"],
+    "objectives": [
+      "Garantir l'accès à l'information pour les personnes déficientes visuelles (daltonisme).",
+      "Améliorer la lisibilité sur des écrans noir et blanc ou en plein soleil."
+    ],
+    "implementationIntro": "Associer systématiquement une forme, un texte ou une icône à l'information portée par la couleur.",
+    "implementation": [
+      "Ajouter une icône ou un texte 'Erreur' en plus de la couleur rouge pour les messages d'alerte.",
+      "Souligner les liens ou ajouter une icône, ne pas se fier qu'à la couleur du texte."
+    ],
+    "control": [
+      "Passer le site en niveaux de gris (via des outils de dev ou OS).",
+      "Vérifier que les messages d'erreur et les liens restent identifiables."
+    ],
+    "screenshotsSources": []
   }
 ]
