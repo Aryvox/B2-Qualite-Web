@@ -92,7 +92,7 @@
   {
     "id": 175,
     "title": "La désinscription depuis une newsletter ne demande pas de confirmation par courriel",
-    "authors": ["Opquast"],
+    "authors": ["DAUMAS Johan"],
     "path": "/rules/175",
     "description": "La désinscription doit être effective immédiatement après l'action de l'utilisateur, sans étapes supplémentaires inutiles comme une confirmation par email.",
     "tags": ["E-mailing", "UX", "Confidentialité"],
@@ -116,7 +116,7 @@
   {
     "id": 176,
     "title": "La désinscription aux newsletters est possible depuis le site",
-    "authors": ["Opquast"],
+    "authors": ["DAUMAS Johan"],
     "path": "/rules/176",
     "description": "L'utilisateur doit pouvoir gérer ses abonnements directement depuis son compte ou une page dédiée sur le site, sans avoir à retrouver un ancien email.",
     "tags": ["E-mailing", "UX", "Compte utilisateur"],
@@ -139,7 +139,7 @@
   {
     "id": 177,
     "title": "La dernière newsletter envoyée est disponible en ligne",
-    "authors": ["Opquast"],
+    "authors": ["DAUMAS Johan"],
     "path": "/rules/177",
     "description": "Permettre la consultation de la newsletter dans un navigateur assure son accessibilité si le client mail l'affiche mal, et permet de la partager plus facilement.",
     "tags": ["E-mailing", "Accessibilité", "Contenus"],
@@ -162,7 +162,7 @@
   {
     "id": 178,
     "title": "Les archives de newsletters sont disponibles en ligne",
-    "authors": ["Opquast"],
+    "authors": ["DAUMAS Johan"],
     "path": "/rules/178",
     "description": "Donner accès aux anciennes newsletters renforce la transparence et permet aux utilisateurs de retrouver des informations passées.",
     "tags": ["E-mailing", "Contenus", "Transparence"],
@@ -184,7 +184,7 @@
   {
     "id": 179,
     "title": "La fréquence d'envoi des newsletters est consultable avant l'abonnement",
-    "authors": ["Opquast"],
+    "authors": ["DAUMAS Johan"],
     "path": "/rules/179",
     "description": "Indiquer la périodicité (quotidienne, hebdomadaire, mensuelle) rassure l'utilisateur et évite la sensation de spam.",
     "tags": ["E-mailing", "UX", "Transparence"],
@@ -205,7 +205,7 @@
   {
     "id": 180,
     "title": "La charte graphique est cohérente sur toutes les pages",
-    "authors": ["Opquast"],
+    "authors": ["DAUMAS Johan"],
     "path": "/rules/180",
     "description": "Une identité visuelle stable aide l'utilisateur à se repérer et renforce l'image de marque du site.",
     "tags": ["Design", "UX", "Crédibilité"],
@@ -227,7 +227,7 @@
   {
     "id": 181,
     "title": "L'information n'est pas véhiculée uniquement par la couleur",
-    "authors": ["Opquast"],
+    "authors": ["DAUMAS Johan"],
     "path": "/rules/181",
     "description": "Penser aux daltoniens et aux contextes où la couleur est absente ou altérée. L'information doit rester compréhensible sans couleur.",
     "tags": ["Accessibilité", "Design", "Inclusion"],
